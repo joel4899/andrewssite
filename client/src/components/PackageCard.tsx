@@ -12,7 +12,7 @@ interface PackageCardProps {
 export default function PackageCard({ tour, isPopular }: PackageCardProps) {
   const handleWhatsApp = () => {
     const message = `Hello, I'm interested in booking the ${tour.name} package (€${tour.price}). Can you provide more details?`;
-    window.open(`https://wa.me/35699999999?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/35699468450?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   const handleEmail = () => {
